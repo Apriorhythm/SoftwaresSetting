@@ -1,0 +1,72 @@
+
+" ############################# Apriorhythm #############################
+
+" Behave like vi
+set nocompatible
+
+" Encoding
+set encoding=utf-8
+ set termencoding=utf-8
+
+syntax on
+
+colorscheme elflord
+
+" auto detect file type
+filetype on
+
+
+" show line number
+set nu
+
+" NO BELLS! NO!!!
+ set belloff=all
+
+
+" Hightlight Current Line
+set ruler
+"set cursorline
+" set cursorcolumn
+
+
+" Font
+set guifont=Courier_new:h13:b:cDEFAULT
+
+" auto indent
+set ai
+
+" expand tab to 4 space
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set softtabstop=0
+
+
+" Set Fold
+set foldmethod=indent
+set foldmethod=syntax
+set nofoldenable
+
+
+" hightlight search
+set hlsearch
+
+
+" Setting for windows gui
+if has("gui_running")
+au GUIEnter * simalt ~x " Maximize windows
+set guioptions-=m " hide menu
+set guioptions-=T " hide tools
+"set guioptions-=r " hide right scrollbar
+"set guioptions-=b " hide buttom scrollbar
+"set showtabline=0 " hide tab
+endif
+
+
+
+
+
+
+" ############################# Apriorhythm #############################
+
+
