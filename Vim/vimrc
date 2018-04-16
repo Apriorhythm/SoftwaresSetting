@@ -25,7 +25,7 @@ set nu
 
 " Hightlight Current Line
 set ruler
-"set cursorline
+set cursorline
 " set cursorcolumn
 
 
